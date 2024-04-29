@@ -10,3 +10,18 @@ body {
 	font-style: normal;
 	font-weight: 200;
 }
+/* Container */
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	background-color: #000000;
+}
+/* Navigation */
+header {
+	width: 100%;
+	height: 10%;
+	background-color: rgb(250, 135, 158);
+	position: fixed;
+}
