@@ -52,3 +52,91 @@ ul li a {
 ul li:hover a {
 	color: #000;;
 }
+/* Contest section */
+
+.dual-column-section {
+    display: flex;
+    justify-content: space-around; /* Centra e distribuisce lo spazio tra le colonne */
+    gap: 20px; /* Distanza tra le colonne */
+}
+
+.column {
+    flex-basis: 45%; /* Imposta la larghezza di ciascuna colonna, adatta secondo necessità */
+    /* Aggiungi padding se desideri spazio intorno al contenuto di ogni colonna */
+}
+
+.column img {
+    width: 100%; /* Rende le immagini responsive, adattandosi alla larghezza della colonna */
+    height: auto; /* Mantiene il rapporto di aspetto dell'immagine */
+    margin-bottom: 20px; /* Spazio tra l'immagine e il testo sottostante */
+}
+
+.column h3, .column p {
+    margin-bottom: 10px; /* Aggiunge spazio sotto il titolo e il paragrafo */
+}
+
+
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: black;
+	color: #ffffff;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: crimson;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.footer_banner {
+	background-color: crimson;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+}
+footer {
+	display: inline-block;
+}
+.hidden {
+font-size: 30px;
+text-align: center;
+color: #FFFFFF;
+position: absolute;
+}
+.hero_header {
+text-align: center;
+color:#FFFFFF
+}
