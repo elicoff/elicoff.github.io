@@ -1,37 +1,57 @@
 @charset "UTF-8";
-/*navigation*/
-ul {
-    list-style-type: none;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #e042e6;
-  }
- 
-  li {
-    float:left;
-  }
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-
-  li a:hover:not(.active) {
-    background-color: #ffbef7;
-  }
-  /* Hero Section */
-  .hero-image {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("progetto/heroimage.jpg");
-    height:800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-color: #f2f2f2;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
 
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #dd209b;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+}
+
+.audition {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #ff008c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
