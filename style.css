@@ -1,6 +1,4 @@
 @charset "UTF-8";
-/* CSS Document */
-/* main container */
 /*navigation*/
 ul {
     list-style-type: none;
@@ -27,7 +25,7 @@ ul {
   /* Hero Section */
   .hero-image {
 	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("progetto/heroimage.jpg");
-    height:700px;
+    height:800px;
 	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
