@@ -1,34 +1,50 @@
 @charset "UTF-8";
-/*navigation*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #e042e6;
-  }
-  
-  li {
-    float:left;
-  }
-  li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover:not(.active) {
-    background-color: #ffbef7;
-  }
-  /* Hero Section */
-  .hero-image {
-	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("progetto/heroimage.jpg");
-    height:800px;
-	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	position: relative;
+* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #e02eb7;
 }
 
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+/* When the user scrolls the page, execute myFunction
+window.onscroll= function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
