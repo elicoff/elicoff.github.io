@@ -37,3 +37,26 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 40px;
+}
