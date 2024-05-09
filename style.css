@@ -1,11 +1,12 @@
-/* Stili globali */
+/* Header Menu */
+.header__content{max-width: 1200px;width:100%; display: flex;justify-content: space-between;align-items: center;
+	margin:auto;}
+    /* Stili globali */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-
 header {
     background-color: #e996db;
     color: #ffffff;
@@ -31,7 +32,6 @@ nav ul li a {
 main {
     padding: 20px;
 }
-/* styles.css */
 
 /* Reset CSS per azzerare i margini e i padding predefiniti */
 * {
