@@ -1,7 +1,7 @@
 /* Stili globali */
 body {
     font-family: Arial, sans-serif;
-    margin: 2;
+    margin: 0;
     padding: 0;
 }
 
@@ -30,6 +30,46 @@ nav ul li a {
 
 main {
     padding: 20px;
+}
+/* styles.css */
+
+/* Reset CSS per azzerare i margini e i padding predefiniti */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile per l'header */
+header {
+    background-color: #020000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Stile per il titolo principale */
+h1 {
+    font-size: 28px;
+}
+
+/* Stile per le sezioni */
+section {
+    margin-bottom: 30px;
+}
+
+/* Stile per i sottotitoli */
+h2, h3 {
+    color: #eca8d5;
+    margin-bottom: 10px;
+}
+
+/* Stile per i paragrafi */
+p {
+    color: #050000;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 footer {
