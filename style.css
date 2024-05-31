@@ -1,17 +1,9 @@
 /* Header Menu */
 .header__content{max-width: 1200px;width:100%; display: flex;justify-content: space-between;align-items: center;
-	margin:auto;}
+	margin: 6px;}
     /* Stili globali */
 
-        .contenitore {
-            text-align: right;
-        }
-        .immagine-destra {
-            display: inline-block;
-            margin: 10px;
-        }
     
-
 body {
     font-family: Arial, sans-serif;
     margin: 6;
